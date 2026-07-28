@@ -1,33 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>MSK Infra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSK Infra | Building Today, Shaping Tomorrow</title>
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    background:#f4f4f4;
+background:#f5f5f5;
+color:#222;
 }
+
+header{
+background:#0b1f3a;
+color:#fff;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#FFD700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
 .hero{
-    background:#003366;
-    color:white;
-    padding:100px 20px;
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600&auto=format&fit=crop");
+background-size:cover;
+background-position:center;
+color:white;
+padding:20px;
 }
-h1{
-    font-size:48px;
+
+.hero h1{
+font-size:55px;
+margin-bottom:15px;
 }
-p{
-    font-size:20px;
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+.btn{
+background:#FFD700;
+padding:15px 30px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+border-radius:5px;
+}
+
+section{
+padding:70px 8%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#0b1f3a;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+footer{
+background:#0b1f3a;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
 }
 </style>
+
 </head>
+
 <body>
 
-<div class="hero">
-    <h1>MSK INFRA</h1>
-    <p>Building Today, Shaping Tomorrow</p>
+<header>
+
+<div class="logo">MSK INFRA</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>MSK INFRA</h1>
+
+<p>Building Today, Shaping Tomorrow</p>
+
+<a class="btn" href="#contact">Get Free Quote</a>
+
 </div>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p style="text-align:center;max-width:850px;margin:auto;font-size:18px;">
+MSK Infra is a trusted construction company based in Mumbai providing
+Repair, Demolition, Propping, RCC Work, Waterproofing and Civil Construction services.
+We deliver quality workmanship with safety and timely completion.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Structural Repair</h3>
+<p>Building repair and strengthening solutions.</p>
+</div>
+
+<div class="card">
+<h3>Demolition</h3>
+<p>Safe demolition for residential & commercial buildings.</p>
+</div>
+
+<div class="card">
+<h3>Propping</h3>
+<p>Professional propping and shoring work.</p>
+</div>
+
+<div class="card">
+<h3>RCC Work</h3>
+<p>High-quality RCC construction services.</p>
+</div>
+
+<div class="card">
+<h3>Waterproofing</h3>
+<p>Leakage treatment and waterproofing.</p>
+</div>
+
+<div class="card">
+<h3>Renovation</h3>
+<p>Home, office and commercial renovation.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p style="text-align:center;font-size:18px;">
+<b>MSK Infra</b><br><br>
+
+📞 +91 9819746102<br><br>
+
+📧 mskinframumbai@gmail.com<br><br>
+
+📍 17 N.M. Begum Building,<br>
+J.S.S. Marg, Kennedy Bridge,<br>
+Mumbai - 400004
+</p>
+
+</section>
+
+<footer>
+
+© 2026 MSK Infra | All Rights Reserved.
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919819746102">
+WhatsApp
+</a>
 
 </body>
 </html>
